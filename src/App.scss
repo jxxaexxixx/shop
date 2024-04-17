@@ -1,0 +1,22 @@
+a{color: #000;}
+.App {
+    button{margin: 10px;}
+    .main_bg{
+        height: 500px;
+        // background-image: url(./mainbg.jpg);
+        background-size: contain;
+        background-position: center;
+    }
+}
+
+.start {
+    // transform: scale(0);
+    opacity : 0;
+}
+.end {
+    // transform: scale(1);
+    opacity : 1;
+    transition : opacity 0.5s;
+}
+
+table{margin: 20px;}
